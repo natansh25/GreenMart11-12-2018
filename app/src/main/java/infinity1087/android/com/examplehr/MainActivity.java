@@ -2,11 +2,9 @@ package infinity1087.android.com.examplehr;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.support.design.widget.TabLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -198,7 +196,7 @@ public class MainActivity extends AppCompatActivity
 
     public void img_btn1(View view) {
 
-        Intent i = new Intent(MainActivity.this,DetailLayout.class);
+        Intent i = new Intent(MainActivity.this,DetailActivity.class);
         i.putExtra("yyy", (Serializable) results);
         startActivity(i);
     }

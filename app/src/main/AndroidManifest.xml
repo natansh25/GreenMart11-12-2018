@@ -23,7 +23,7 @@
         </activity>
         <activity android:name=".ViewPager" />
         <activity android:name=".Row_item" />
-        <activity android:name=".DetailLayout"></activity>
+        <activity android:name=".DetailActivity"></activity>
     </application>
 
 </manifest>

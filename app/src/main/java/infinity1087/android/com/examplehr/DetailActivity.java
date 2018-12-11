@@ -13,11 +13,16 @@ import infinity1087.android.com.examplehr.adapter.RecyclerAdapter;
 import infinity1087.android.com.examplehr.adapter.RecyclerVeg;
 import infinity1087.android.com.examplehr.model.ResponseDatum;
 
-public class DetailLayout extends AppCompatActivity {
+public class DetailActivity extends AppCompatActivity {
 
     private RecyclerView mRecyclerView;
     private RecyclerVeg mAdapter;
     private List<ResponseDatum> mData;
+
+
+
+    //TODO makes each and every variable name proper as the code base is growing its becoming difficult to manage without proper names creates confusion
+    //TODO you just imrpove main and detail layout dont worry about other fruits and all not fetching will do in eveing its simple work on the layout and variables names refactoring properly
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
